@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(0,0,127,0.2);
+    color: #f6f6f6;
+    font-family: Roboto, sans-serif;
+  }
+  
+  h1, p {
+    text-align: center;
+    color: #1e1e1e;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 50px 0 0 0;
+  }
+  
+  #survey-form{
+    width: 50%;
+    min-width: 300px;
+    margin: 2rem auto;
+    background-color: rgba(0,0,127,0.5);
+    padding: 3rem 2rem
+  }
+  
+  #name-label, #email-label, #number-label {
+    font-size: 1rem;
+  }
+  
+  #name, #email, #number {
+    display: block;
+    width: 100%;
+    height: 2.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.2rem;
+  }
+  ::placeholder {
+    padding: 0 0 0 0.5rem;
+  }
+  
+  #dropdown {
+    display: block;
+    width: 100%;
+    height: 2.2rem;
+    padding: 0 0 0 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .custom-radio {
+    display: block;
+    padding: 0 0 0.5rem 0;
+  }
+  
+  .other-text {
+    text-align: left;
+    color: #f6f6f6;
+    margin-bottom: 0.5rem;
+  }
+  
+  .custom-checkbox {
+    display: block;
+    padding: 0 0 0.5rem 0
+  }
+  
+  textarea {
+    display: block;
+    width: 100%;
+    height: 6rem;
+    padding: 0.5rem 0 0 0;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    background-color: #1e1e1e;
+    color: #f6f6f6;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  
